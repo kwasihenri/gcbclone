@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - GCB bank PLC</title>
+    <link rel="stylesheet" href="freestyles.css" type="text/css">
+</head>
+<body>
+    
+    <div class="naver">
+        <img  src="siteimages/logo.png" alt="" class="logo">
+        <img id="showmn" src="siteimages/svgs/strips.svg" alt="show-sidebar" class="showbtn" id="showbtn">
+    </div>
+    <div id="mbox" class="mbox">
+        <div class="navself">
+            <div>
+                <img src="siteimages/logo.png" alt="gcb-logo" class="logo">
+                <img style="position: absolute; right: 0px; width: 40px;" id="hidemn" src="siteimages/svgs/close.svg" alt="close-sidebar" class="closebtn" id="closebtn">
+            </div>
+            <div class="mobnav">
+                <a href="gcbcapital.html">GCB Capital</a>
+                <a href="about.html">About GCB</a>
+                <a href="board-members.html">Board Members</a>
+                <a href="downloads.html">Downloads</a>
+                <a href="customer-exp.html">Customer Experience</a>
+                <a href="branch-contacts.html">Branch Contacts</a>
+                <a href="money-transfer.html">Money Transfer</a>
+                <a href="linkcard.html">Ghana Card Linkage URL</a>
+                <a href="gcb-atms.html">Our ATMs</a>
+                <h3 style="margin: 10px 0px; background-color: orange;">Page Links</h3>
+                <a href="index.html">Home</a>
+                <a class="mobnav-inlink" href="#personalbanking">Personal</a>
+                <a class="mobnav-inlink" href="#businessvibes">Business</a>
+                <a class="mobnav-inlink" href="#tables-side">Trades&nbsp;& Payments</a>
+                <a class="mobnav-inlink" href="#news">News</a>
+                <a href="http://www.g-money.com.gh/" target="_blank" title="Open GMoney Official Site">G-Money</a>
+                <a class="mobnav-inlink" href="#personalbanking">Internet Banking</a>
+            </div>
+        </div>
+        <div class="dimpart">
+
+        </div>
+    </div>
+    <header>
+        <div class="topnav">
+            <a href="gcbcapital.html">GCB Capital</a>
+            <a href="about.html">About GCB</a>
+            <a href="board-members.html">Board Members</a>
+            <a href="downloads.html">Downloads</a>
+            <a href="customer-exp.html">Customer Experience</a>
+            <a href="branch-contacts.html">Branch Contacts</a>
+            <a href="money-transfer.html">Money Transfer</a>
+            <a href="linkcard.html">Ghana Card Linkage URL</a>
+            <a href="gcb-atms.html">Our ATMs</a>
+        </div>
+        <nav class="mainnav">
+            <a href="index.html"><img src="siteimages/logo.png" alt="GCB LOGO" class="sitelogo"></a>
+            <div style="display: flex;">
+                <div class="navboxes">
+                    <a href="index.html" class="navbox active">
+                        <b>Home</b>
+                        <span>Your bank for life</span>
+                    </a>
+                    <a href="#personalbanking" class="navbox">
+                        <b>Personal</b>
+                        <span>Everyday Banking</span>
+                    </a>
+                    <a href="#businessvibes" class="navbox">
+                        <b>Business</b>
+                        <span>Bank your Business</span>
+                    </a>
+                    <a href="#tables-side" class="navbox">
+                        <b>Trades&nbsp;& Payments</b>
+                        <span>Your bank for life</span>
+                    </a>
+                    <a href="#news" class="navbox">
+                        <b>News</b>
+                        <span>Be The First to Know</span>
+                    </a>
+                    <a href="http://www.g-money.com.gh/" target="_blank" title="Open GMoney Official Site" class="navbox">
+                        <b>G-Money</b>
+                        <span></span>
+                    </a>
+                    <a href="#personalbanking" class="navbox">
+                        <b>Internet Banking</b>
+                        <span>Secured Banking</span>
+                    </a>
+                </div>
+                <img src="siteimages/search.svg" alt="SEARCH SVG" class="searchsvg">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div style="height: 50px;" class="coverspace"></div>
+        <div>
+            <div class="slidersdiv">
+                <img src="siteimages/Bancassurance-website.jpg" alt="SLIDER IMAGE">
+                <!-- Add More <img src="" alt=""> -->
+            </div>
+            <div class="featuredvibes row">
+                <div class="storyimgdiv">
+                    <img id="news" src="siteimages/Story_Header.jpg" alt="FEATURED" class="featuredimg">
+                    <div class="ontext">
+                        <a class="ybtnlink" href="#news">News</a>
+                        <p >A century of Trust: Living the Promise of Your Bank for Life</p>
+                    </div>
+                </div>
+                <div class="morestoryimgdiv row">
+                    <div class="box1">
+                        <div class="ratebox">
+                            <p style="text-align: center;">Ghana Reference Rate</p>
+                            <h1 style="text-align: center;">23.99%</h1>
+                            <p style="text-align: center;">Per Annum</p>
+                        </div>
+                        <div class="ontext">
+                            <a href="loans.html" class="ybtnlink">Loans</a>
+                            <p>Effective 8th May, 2025</p>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img src="siteimages/mobile-banking.jpg" alt="">
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+            <div class="freerow">
+                <div id="personalbanking" class="tabsdiv row">
+                    <ul class="tabslist">
+                        <li onclick="addActiveClassToLi('easyP',this,1)" class="active">Easy Pick</li>
+                        <li onclick="addActiveClassToLi('mobile-banking',this,2)">Mobile Banking</li>
+                        <li onclick="addActiveClassToLi('internet-banking',this,3)">Internet Banking</li>
+                        <li onclick="addActiveClassToLi('litepay',this,4)">Debit Cards</li>
+                    </ul>
+                    <div class="imgdiv">
+                        <img style="z-index: inherit !important;" src="siteimages/EasyP.jpg" alt="TAB IMAGE" class="tabimg">
+                        <div style="z-index: inherit !important;" class="ontext">
+                            <p class="ontext-p">
+                                Welcome to a better way of shopping. Easy Pick gives you financial access to buy the things you love now, and pay later.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="solidtwo">
+                    <div class="col1">
+                        <h3>Buy Now, Pay Later</h3>
+                        <a href="#">See Vender List</a> <br>
+                        <a href="#news" class="ybtnlink">Announcement</a>
+                    </div>
+                    <div class="col2">
+                        <p>
+                            "We are committed to exceeding your expectations. 
+                            Your bank for life, serving you well at every 
+                            touchpoint"
+                        </p>
+                        <span>
+                            -<b>Farihan Alhassan</b>
+                            <p>MD, GCB Bank PLC</p>
+                        </span>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="flexes-container">
+                <div id="businessvibes" class="optioncards">
+                    <div class="optioncard">
+                        <h2>Money Transfer</h2>
+                        <p>Receive funds from any location around the globe.</p>
+                        <a href="money-transfer.html">></a>
+                    </div>
+                    <div class="optioncard">
+                        <h2>eBanking</h2>
+                        <p>Bank smart with our e-products and services</p>
+                        <a href="#">></a>
+                    </div>
+                    <div class="optioncard">
+                        <h2>Link2Home</h2>
+                        <p>Save at home while abroad.</p>
+                        <a href="#">></a>
+                    </div>
+                    <div class="optioncard">
+                        <h2>24hr Loans</h2>
+                        <p>A personal loan just in time when you need it.</p>
+                        <a href="loans.html">></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="aboutgcbdiv">
+                <div style="background: url(siteimages/Website-Security-tips4.jpg);" class="dailytip"></div>
+                <div style="background: url(siteimages/branch-network.jpg);" class="branchesbox">
+                    <p>
+                        Today, GCB <br>
+                        has 184 <br>
+                        branches  <br>
+                        nationwide <br>
+                    </p>
+                    <h2><a href="branch-contacts.html">Find A Branch</a></h2>
+                </div>
+                <div style="background: url(siteimages/boat.png);" class="annualreportbox">
+                    <p>2024 Annual Report</p>
+                </div>
+            </div>
+            <div class="downbox">
+                
+                <div id="tables-side" class="linkstrip">
+                    <p onclick="switchTab('cards-table', this)" class="active linkbox">Card Transaction Rate</p>
+                    <p onclick="switchTab('exchange-table', this)" class="linkbox">Foreign Exchange</p>
+                    <p onclick="switchTab('depostis-table', this)" class="linkbox">Fixed Deposits</p>
+                </div>
+                <div class="tabletabcontents">
+                    <div class="tabletabcontent cards-table">
+                        <table border="0" class="indicative-cards-table cards-table">
+                            <caption><h2>GCB Bank's Indicative Card Rates</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th>Currency</th>
+                                    <th>Selling</th>
+                                    <th>Markup on Rate</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>USD</td>
+                                    <td align="center">12.4888</td>
+                                    <td align="center">7.20%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="display: none;" class="tabletabcontent exchange-table">
+                        <table border="0" class="indicative-cards-table cards-table">
+                            <caption><h2>GCB Bank's Foreign Exchange Rates</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th>Currency</th>
+                                    <th>Buying</th>
+                                    <th>Selling</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>USD</td>
+                                    <td align="center">10.1500</td>
+                                    <td align="center">10.5000</td>
+                                </tr>
+                                <tr>
+                                    <td>GBP</td>
+                                    <td align="center">13.9000</td>
+                                    <td align="center">14.2500</td>
+                                </tr>
+                                <tr>
+                                    <td>EUR</td>
+                                    <td align="center">11.8500</td>
+                                    <td align="center">12.2000</td>
+                                </tr>
+                                <tr>
+                                    <td>YEN</td>
+                                    <td align="center">0.0650</td>
+                                    <td align="center">0.0850</td>
+                                </tr>
+                                <tr>
+                                    <td>CAD</td>
+                                    <td align="center">7.4500</td>
+                                    <td align="center">7.8000</td>
+                                </tr>
+                                <tr>
+                                    <td>CFA</td>
+                                    <td align="center">0.0100</td>
+                                    <td align="center">0.0250</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="display: none; overflow: hidden; max-width: 100vw;" class="tabletabcontent depostis-table">
+                        <table border="0" class="indicative-cards-table cards-table">
+                            <caption><h2>GCB Bank's Fixed Deposits Rates</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th>Tenure</th>
+                                    <th>1</th>
+                                    <th>2</th>
+                                    <th>3</th>
+                                    <th>4</th>
+                                    <th>5</th>
+                                    <th>6</th>
+                                    <th>12</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>000-10</td>
+                                    <td  align="center">000</td>
+                                    <td  align="center">3.00</td>
+                                    <td  align="center">4.00</td>
+                                    <td  align="center">5.00</td>
+                                    <td  align="center">6.50</td>
+                                    <td  align="center">7.00</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>001-50</td>
+                                    <td  align="center">000</td>
+                                    <td  align="center">4.00</td>
+                                    <td  align="center">4.50</td>
+                                    <td  align="center">6.00</td>
+                                    <td  align="center">7.00</td>
+                                    <td  align="center">7.50</td>
+                                </tr>
+                                <tr>
+                                    <td>50</td>
+                                    <td>001-100</td>
+                                    <td  align="center">000</td>
+                                    <td  align="center">4.50</td>
+                                    <td  align="center">5.00</td>
+                                    <td  align="center">7.00</td>
+                                    <td  align="center">7.50</td>
+                                    <td  align="center">8.00</td>
+                                </tr>
+                                <tr>
+                                    <td>100</td>
+                                    <td>001-500</td>
+                                    <td  align="center">000</td>
+                                    <td  align="center">6.00</td>
+                                    <td  align="center">6.50</td>
+                                    <td  align="center">8.00</td>
+                                    <td  align="center">9.00</td>
+                                    <td  align="center">10.00</td>
+                                </tr>
+                                <tr>
+                                    <td>500</td>
+                                    <td>001 & Above</td>
+                                    <td  align="center">000</td>
+                                    <td  align="center">6.50</td>
+                                    <td  align="center">7.00</td>
+                                    <td  align="center">9.00</td>
+                                    <td  align="center">9.50</td>
+                                    <td  align="center">10.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Above 1</td>
+                                    <td>000</td>
+                                    <td  align="center">000</td>
+                                    <td  align="center">7.00</td>
+                                    <td  align="center">8.00</td>
+                                    <td  align="center">10.00</td>
+                                    <td  align="center">10.50</td>
+                                    <td  align="center">11.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="last-container">
+                <div class="freediv">
+                    <div>
+                        <span>
+                            <img src="siteimages/visa_icon.png" alt="VISA ICON">
+                            <p>Visa Rate Calculator</p>
+                        </span>
+                        <span>
+                            <img src="siteimages/mastercard_icon.png" alt="MASTERCARD ICON">
+                            <p>MasterCard Rate Calculator</p>
+                        </span>
+                    </div>
+                    <div class="ontext">
+                        <b style="cursor: pointer;" class="ybtnlink" onclick="" href="">As at 23rd May, 2025</b>
+                        <p>Stay up to date</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="chatboxed">
+            <a id="chatlink" href="chatgbc.html"><img src="siteimages/live-chat-Icon-01.png" alt="CHAT ICON"></a>
+        </div>
+        <div style="display: none;" id="cfcontainer" class="cfcontainer">
+            <div class="camouflageload"  id="camouflageload">
+                <h2 id="cftext">.....</h2>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="homefooter">
+        <img src="siteimages/logo.png" alt="GCB LOGO">
+        <div class="actual-container">
+            <div class="footgroup">
+                <h2>Business Hours</h2>
+                <p>
+                    8:30am-4:00pm <br>
+                    Monday-Friday
+                </p>
+            </div>
+            <div class="footgroup">
+                <h2>Personal Banking</h2>
+                <a href="#" class="footlink">Current Accounts</a>
+                <a href="#" class="footlink">Saving Accounts</a>
+                <a href="#" class="footlink">Loans</a>
+            </div>
+            <div class="footgroup">
+                <h2>Business Banking</h2>
+                <a href="#" class="footlink">Your Bank for Business</a>
+                <a href="#" class="footlink">Business Accounts</a>
+                <a href="#" class="footlink">SME Solutions</a>
+            </div>
+            <div class="footgroup">
+                <h2>Services</h2>
+                <a href="#" class="footlink">Tariff Guide</a>
+                <a href="#" class="footlink">Electronic Banking</a>
+                <a href="#" class="footlink">Loans & Overdrafts</a>
+                <a href="#" class="footlink">Money Transfer</a>
+                <a href="#" class="footlink">Research Reports</a>
+            </div>
+            <div class="footgroup">
+                <h2>Investor relations</h2>
+                <a href="#" class="footlink">GCB Capital</a>
+                <a href="#" class="footlink">Group Results and Reporting</a>
+                <!-- <a href="#" class="footlink"></a> -->
+            </div>
+            <div class="footgroup">
+                <h2>About GCB Bank</h2>
+                <a href="#" class="footlink">Corporate Info.</a>
+                <a href="#" class="footlink">Electronic Banking T&C's</a>
+                <a href="#" class="footlink">General Privacy Policy</a>
+                <a href="#" class="footlink">Cyber & Information Security Policy</a>
+                <a href="#" class="footlink">Mobile App Privacy Policy</a>
+                <a href="#" class="footlink">Cybersecurity Tips</a>
+            </div>
+        </div>
+        
+        <div class="sp-container">
+            <div class="sp-card sp-animate">
+            <div class="sp-profile-img">
+                <img src="siteimages/board/HenriPic.jpg" alt="Passport Photo">
+            </div>
+            <div class="sp-info">
+                <h2 style="text-transform: uppercase;" class="sp-name">Henry Kwasi Quarshie</h2>
+                <table class="sp-table">
+                <tr>
+                    <td><strong>Index No:</strong></td>
+                    <td>BC/ITS/24/212</td>
+                </tr>
+                <tr>
+                    <td><strong>Class:</strong></td>
+                    <td>IT GROUP-E L100</td>
+                </tr>
+                <tr>
+                    <td><strong>Department:</strong></td>
+                    <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td><strong>Faculty:</strong></td>
+                    <td>Applied Sciences</td>
+                </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+        <div class="bottom-black-strip">
+            <p style="color:white; text-align: center; padding: 5px; font-size: 12px;">
+                Copyright © 2025 GCB Bank Ghana PLC | Inspired by <a href="https://devrehen.rf.gd?for=webdev" class="renlink">DevREN</a> <!-- DreamOval -->
+            </p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("chatlink").addEventListener("click", (e)=>{
+            e.preventDefault();
+            
+        document.getElementById("cfcontainer").style.display="flex";
+            document.getElementById("camouflageload").style.width="min(200px, 80vw)";
+            deg=0;
+            setInterval(() => {
+                deg+=20;
+                document.getElementById("cftext").style.transform="rotatez("+deg+"deg)";
+                if(deg>=360){
+                    deg=0;
+                }
+            }, 100);
+            // alert("clicked");
+        })
+        document.getElementById("cfcontainer").addEventListener("click",(e)=>{
+            e.srcElement.style.display="none";
+        });
+        function switchTab(tabclass, tabself){
+            //alert("caught");
+            tabsboxes=document.querySelectorAll(".linkbox");
+            tabsboxes.forEach(function(tabsbox){
+                tabsbox.classList.remove("active");
+            });
+            tabself.classList.add("active");
+            tabsContents=document.querySelectorAll(".tabletabcontent").forEach(function(contentItem){
+                contentItem.style.display="none";
+            }) 
+            document.querySelector("."+tabclass).style.display="block";
+        }
+        function addActiveClassToLi(imgurl,item,textNum){
+            const listItems=document.querySelectorAll(".tabslist li");
+            listItems.forEach(function(li){
+                li.classList.remove("active");
+            });
+            item.classList.add("active");
+            document.querySelector(".tabimg").setAttribute("src","siteimages/"+imgurl+".jpg");
+            var texts=[
+                "Welcome to a better way of shopping. Easy Pick gives you financial access to buy the things you love now, and pay later.",
+                "Enjoy a world of financial solutions right from your mobile phone. It’s simple, secure and easy to use.",
+                "Access GCB online from your computer or mobile device. Financial control at your fingertips.",
+                "Facilitates seamless electronic transactions, enabling direct access to bank accounts for purchases."
+            ];
+            document.querySelector(".ontext-p").innerHTML=texts[textNum-1];
+
+            // alert(listItems.length);
+
+        }
+
+    </script>
+    <script>
+        document.querySelector(".dimpart").addEventListener("click",()=>{
+            hidemn();
+        });
+        document.getElementById("hidemn").addEventListener("click",()=>{
+            hidemn();
+        });
+        document.getElementById("showmn").addEventListener("click",()=>{
+            // alert("clicked");
+            showmn();
+        });
+        document.querySelectorAll(".mobnav-inlink").forEach((link)=>{
+            link.addEventListener("click", ()=>{
+                hidemn();
+            });
+        });
+        function hidemn(){
+            // document.getElementById("mbox").style.display="none";
+            document.querySelector(".navself").style.left="min(-70%, -300px)";
+            document.querySelector(".dimpart").style.display="none";
+            // document.getElementById("mbox").style.display="none";
+            setTimeout(()=>{
+                document.getElementById("mbox").style.display="none";
+            }, 500);
+            
+        }
+        function showmn(){
+            document.getElementById("mbox").style.display="block";
+            document.querySelector(".navself").style.left="0px";
+            document.querySelector(".dimpart").style.display="block";
+            // document.getElementById("mbox").style.display="none";
+            
+        }
+    </script>
+
+    
+</body>
+</html>
